@@ -44,7 +44,7 @@ int main(int argc, char *argv[]){
     while(1){
         print_menu();
         scanf("%d", &option);
-        switch(option){
+        switch(option){ //1-perimeter; 2-area; 3-midle line
             case 1: {
                 std::cout << "Enter all sides \n>>>";
                 int perim = perimeter();
