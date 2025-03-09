@@ -7,7 +7,7 @@ void perimeter(double& result, double a, double b, double c) {
     result = a + b + c;
 }
 
-//       Функция для вычисления площади по формуле Герона
+// Функция для вычисления площади по формуле Герона
 void plosh(double& result, double a, double b, double c) {
     double s = (a + b + c) / 2; // Полупериметр
     result = sqrt(s * (s - a) * (s - b) * (s - c)); // Формула Герона
